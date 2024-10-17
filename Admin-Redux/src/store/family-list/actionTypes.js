@@ -1,0 +1,9 @@
+export const GET_FAMILY_LIST =
+  "GET_FAMILY_LIST";
+export const GET_FAMILY_LIST_SUCCESS =
+  "GET_FAMILY_LIST_SUCCESS";
+export const GET_FAMILY_LIST_FAIL =
+  "GET_FAMILY_LIST_FAIL";
+
+
+  

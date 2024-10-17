@@ -1,0 +1,50 @@
+.trustContainer {
+  max-width: 1450px;
+  margin: 0 auto;
+}
+.trustSection {
+  background-color: var(--primary-blue);
+  color: var(--primary-white);
+  padding: 2rem 0;
+  overflow: hidden; /* Add this line */
+}
+
+.trustHeadings p {
+  font-size: 1.1rem;
+  font-weight: 300;
+  margin-bottom: 0.5rem;
+}
+
+.trustHeadings h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--primary-white);
+}
+
+.trustContent {
+  margin-top: 2rem;
+}
+
+.logoImage {
+  max-width: 150px;
+  opacity: 0.8;
+  transition: opacity 0.3s ease;
+}
+
+.logoImage:hover {
+  opacity: 1;
+}
+
+.imageContainer {
+  margin: 0;
+}
+
+@media (min-width: 768px) {
+  .imageContainerWithBorder {
+    border-bottom: 2.5px solid var(--secondary-blue);
+  }
+
+  .imageContainerWithRightBorder {
+    border-right: 2.5px solid var(--secondary-blue);
+  }
+}

@@ -1,0 +1,72 @@
+/* Common Button Styles */
+.custom-btn {
+  display: inline-flex;
+  align-items: center;
+  color: var(--primary-white);
+  font-weight: var(--font-weight-light);
+  padding: 0.8rem 1.3rem;
+  width: auto;
+  /* max-width: 200px; */
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* Icon Styling */
+.btn-icon {
+  margin-right: 0.2rem;
+  display: flex;
+}
+
+/* Button Variants */
+.btn-purple-round {
+  background-color: var(--primary-purple);
+  border: none;
+  padding: 0.8rem 2.5rem;
+  border-radius: 30px;
+}
+
+.btn-white-round {
+  background-color: var(--primary-white);
+  border: none;
+  padding: 0.8rem 2.5rem;
+  border-radius: 30px;
+  color: var(--primary-black);
+}
+
+.btn-purple-rect {
+  background-color: var(--primary-purple);
+  border: none;
+}
+
+.btn-white-rect {
+  background-color: var(--primary-white);
+  border: none;
+  color: var(--primary-black);
+}
+
+.btn-pink-round {
+  background-color: var(--primary-pink);
+  border: none;
+  border-radius: 30px;
+}
+
+.btn-transparent-round {
+  background-color: transparent;
+  color: var(--primary-white);
+  border: 2px solid var(--primary-white);
+  border-radius: 30px;
+}
+
+.btn-transparent-round:hover {
+  background-color: var(--primary-white);
+  color: black;
+}
+.btn-transparent-rect {
+  background-color: transparent;
+  color: var(--primary-white);
+  border: 2px solid var(--primary-white);
+}
+
+.btn-transparent-round:hover {
+  background-color: var(--primary-white);
+  color: var(--primary-black);
+}

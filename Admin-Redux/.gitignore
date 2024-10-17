@@ -1,0 +1,31 @@
+# Virtual environments
+venv/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django migrations
+*/migrations/*
+
+# Database files
+*.sqlite3
+
+# Media uploads
+media/
+
+# Static files
+staticfiles/
+
+# Environment variables
+.env
+
+# IDE settings (optional)
+.vscode/
+.idea/
+
+# macOS system files
+.DS_Store
+# Ignore node_modules directory
+node_modules/

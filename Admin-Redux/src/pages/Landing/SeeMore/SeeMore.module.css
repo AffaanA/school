@@ -1,0 +1,72 @@
+.allFeaturesSection {
+  background-color: var(--primary-purple);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  p,
+  h2,
+  h4 {
+    color: var(--primary-white);
+  }
+}
+
+.subheading {
+  font-size: 1rem;
+  font-weight: 100;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.mainHeading {
+  font-size: 2rem;
+  font-weight: 500;
+  margin-top: 0.5rem;
+}
+
+.icon {
+  font-size: 100px;
+  color: rgba(255, 255, 255, 0.1);
+  position: absolute;
+}
+
+.iconGlasses {
+  top: 5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.iconCircleWhite {
+  background-color: var(--primary-white);
+  color: var(--primary-blue);
+  border-radius: 50%;
+  font-size: 2rem;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.featuresGridContainer {
+  max-width: 1550px;
+  margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+  .featureDescription {
+    max-width: 300px;
+  }
+}
+
+.featureTitle {
+  font-size: 1.6rem;
+  font-weight: 500;
+  margin-top: 0.5rem;
+}
+
+.featureDescription {
+  font-size: 0.875rem;
+  font-weight: 300;
+}

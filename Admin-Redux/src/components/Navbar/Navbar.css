@@ -1,0 +1,30 @@
+/* Navbar.css */
+.navbar-no-padding {
+  padding: 0 !important;
+}
+
+.logo {
+  height: 30px; /* Adjust logo size */
+}
+
+.navbar-dark .navbar-toggler {
+  border: none;
+}
+
+.navbar-custom {
+  background: linear-gradient(
+    to left,
+    var(--primary-blue),
+    var(--secondary-blue)
+  ) !important;
+}
+
+.align-items-responsive {
+  align-items: end;
+}
+
+@media (min-width: 768px) {
+  .align-items-responsive {
+    align-items: center !important;
+  }
+}

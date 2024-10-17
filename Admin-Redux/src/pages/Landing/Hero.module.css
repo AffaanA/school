@@ -1,0 +1,5 @@
+@media (max-width: 768px) {
+  .fw-md-normal {
+    font-weight: 400 !important; /* Normal weight on md and below */
+  }
+}

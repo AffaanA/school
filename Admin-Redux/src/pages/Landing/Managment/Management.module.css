@@ -1,0 +1,28 @@
+.managementSection {
+  color: var(--primary-white);
+}
+
+.managementContainer {
+  max-width: 1450px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
+.serviceContainer {
+  text-align: left;
+}
+
+.serviceContainer h3 {
+  color: var(--primary-white);
+  font-weight: 500;
+}
+
+.serviceContainer p {
+  color: var(--primary-white);
+  font-weight: 300;
+  line-height: 1.6;
+}
+
+.serviceImage {
+  max-width: 90%; /* Adjust based on the desired size */
+}

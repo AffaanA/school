@@ -1,0 +1,18 @@
+# Ignore Python virtual environment directories
+**/venv/
+**/venv/*
+
+# Ignore Node.js modules directories
+**/node_modules/
+**/node_modules/*
+
+**/migrations/
+**/migrations/*
+# Ignore the database files (optional)
+db.sqlite3
+*.sqlite3
+
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+Admin-Redux/.env

@@ -1,0 +1,35 @@
+.serviceSection {
+  color: var(--primary-white);
+}
+
+.serviceContainer {
+  color: var(--primary-white);
+  text-align: left;
+}
+
+.badge {
+  background-color: var(--primary-purple);
+  font-weight: 200;
+  padding: 8px 10px;
+  font-size: 16px;
+  display: inline-block;
+  color: var(--primary-white);
+  border-radius: 4px;
+}
+
+.serviceTitle {
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-top: 0.5rem;
+  color: var(--primary-white);
+}
+
+.serviceText {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: var(--primary-white);
+}
+
+.serviceImage {
+  max-width: 80%;
+}

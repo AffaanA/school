@@ -1,0 +1,17 @@
+:root {
+  --primary-black: #000;
+  --primary-blue: #051a3f;
+  --primary-purple: #115df7;
+  --primary-pink: #f88d97;
+  --primary-white: #ffffff;
+
+  --secondary-blue: #09317c;
+
+  --secondary-text: #9698d6;
+
+  --font-weight-light: 100;
+}
+
+p {
+  color: var(--primary-white);
+}
